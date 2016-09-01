@@ -16,7 +16,7 @@ const perroquet = require('gulp-perroquet');
 gulp.task('default', () => {
 	gulp.src('src/app.html')
 		.pipe(perroquet())
-		.pipe(gulp.dest('dest/app.php'));
+		.pipe(gulp.dest('dest/'));
 });
 ```
 
