@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/blunt1337/perroquet.svg?branch=master)](https://travis-ci.org/blunt1337/perroquet)
+
 ```
 	 ____                                      _   
 	|  _ \ ___ _ __ _ __ ___   __ _ _   _  ___| |_ 
