@@ -1,0 +1,23 @@
+{
+  "name": "gulp-perroquet",
+  "description": "Compile perroquet template files into pure PHP files",
+  "version": "1.0.0",
+  "homepage": "http://github.com/blunt1337/perroquet",
+  "repository": "git://github.com/blunt1337/perroquet.git",
+  "author": "Olivier <business@blunt.sh> (http://blunt.sh/)",
+  "main": "./index.js",
+  "keywords": [
+    "gulp", "perroquet", "php", "template"
+  ],
+  "dependencies": {
+	  "perroquet"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">= 1.0.0"
+  },
+  "license": "Apache-2.0"
+}
