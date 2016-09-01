@@ -63,7 +63,7 @@ function parse(before, code, custom_functions)
 		// Include a file
 		case '>':
 			// Custom function 'include' can override this one
-			if (typeof custom_functions == 'object' && custom_functions.hasOwnProperty('include')) {
+			if (typeof custom_functions == 'object' && custom_functions !== null && custom_functions.hasOwnProperty('include')) {
 				var fct = custom_functions.include;
 				if (typeof fct == 'function') {
 					code = fct(code.substr(1));
@@ -158,7 +158,7 @@ function parse(before, code, custom_functions)
 						}
 						
 						// Custom functions
-						if (typeof custom_functions == 'object' && custom_functions.hasOwnProperty(match[1])) {
+						if (typeof custom_functions == 'object' && custom_functions !== null && custom_functions.hasOwnProperty(match[1])) {
 							var fct = custom_functions[match[1]];
 							if (typeof fct == 'function') {
 								code = fct(match[3]);
