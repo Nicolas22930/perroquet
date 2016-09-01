@@ -12,7 +12,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "node test.js && node gulp/test.js"
+    "test": "node test.js"
   },
   "engines": {
     "node": ">= 1.0.0"
